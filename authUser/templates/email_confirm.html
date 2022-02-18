@@ -1,0 +1,16 @@
+{% autoescape off %}
+
+Welcome to django Login 
+
+hello {{ name}}
+
+please confirm your email by clicking  on followinhg links 
+
+
+http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+
+
+
+
+{% endautoescape %}
